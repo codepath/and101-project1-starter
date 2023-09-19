@@ -27,7 +27,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="60dp"
-                android:src="@drawable/avatar_9"/>
+                android:src="@drawable/avatar_13"/>
 
             <TextView
                 android:id="@+id/profile_name"
@@ -56,15 +56,15 @@
 
             <TextView
                 android:id="@+id/profile_hobby_header"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/profile_bio"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="179dp"
+                android:layout_height="0dp"
                 android:layout_marginTop="50dp"
                 android:text="@string/profile_hobby_header_text"
+                android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textColor="@color/black"/>
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profile_bio" />
 
             <TextView
                 android:id="@+id/profile_hobby_first"
